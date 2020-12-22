@@ -6,6 +6,8 @@ a = gets
 print "请输入直角三角形的底边，然后按 Enter: "
 b = gets
 
-# .....
+side = a.to_i
+high = b.to_i
+S = side * high / 2
 
-puts "直角三角形的面积是: _________"
+puts "直角三角形的面积是: #{S}"
